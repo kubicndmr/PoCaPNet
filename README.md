@@ -1,6 +1,6 @@
 # PoCaPNet: A Novel Approach for Surgical Phase Recognition Using Speech and X-Ray Images
 
-PoCaPNet is a multimodal network based on two-stage TCN architecture and designed for surgical phase recognition using speech and X-Ray data collected during port-catheter placement surgeries. 
+PoCaPNet is a multimodal network based on two-stage TCN architecture and designed for surgical phase recognition using speech and X-Ray data collected during port-catheter placement surgeries [1].
 
 ## Getting Started
 
@@ -19,9 +19,9 @@ This will create ```data``` and ```features``` folders containing audio and imag
 
 ```utils/hparams.py``` holds all settings for the training as well as the preprocessing and feature extraction. You can adjust preferred values in this script for these steps.  
 
-## Prerequisites
+## Dataset
 
-The main medical dataset, PoCap Corpus [1], is unfortunately is not publicly available in order to ensure data security of patients and medical personal.
+The medical dataset PoCap Corpus is unfortunately is not publicly available in order to ensure data security of patients and medical personal. Details can be found in [2]
 
 ## Training
 
@@ -29,15 +29,9 @@ The main medical dataset, PoCap Corpus [1], is unfortunately is not publicly ava
 
     - python main.py
 
-## Contributing
-
-Instructions for how others can contribute to the project. This might include guidelines for submitting pull requests, reporting issues, and coding standards.
-
-## License
-
-Information on the license under which the project is released. This might include a link to the full license text.
-
 ## References
 ```
-[1] Demir, Kubilay Can, et al. "PoCaP Corpus: A Multimodal Dataset for Smart Operating Room Speech Assistant Using Interventional Radiology Workflow Analysis." Text, Speech, and Dialogue: 25th International Conference, TSD 2022, Brno, Czech Republic, September 6–9, 2022, Proceedings. Cham: Springer International Publishing, 2022.
+[1] Demir, Kubilay Can, et al. "PoCaPNet: A Novel Approach for Surgical Phase Recognition Using Speech and X-Ray Images." arXiv preprint arXiv:2305.15993 (2023).
+
+[2] Demir, Kubilay Can, et al. "PoCaP Corpus: A Multimodal Dataset for Smart Operating Room Speech Assistant Using Interventional Radiology Workflow Analysis." Text, Speech, and Dialogue: 25th International Conference, TSD 2022, Brno, Czech Republic, September 6–9, 2022, Proceedings. Cham: Springer International Publishing, 2022.
 ```
