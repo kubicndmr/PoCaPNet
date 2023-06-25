@@ -2,6 +2,10 @@
 
 PoCaPNet is a multimodal network based on two-stage TCN architecture and designed for surgical phase recognition using speech and X-Ray data collected during port-catheter placement surgeries [1].
 
+<p align="center">
+<img width="960" height="350" src="https://github.com/kubicndmr/PoCaPNet/files/11861012/model.pdf"> 
+</p>
+
 ## Getting Started
 
 To install dependencies, we recommend creating a virtual environment as following:
@@ -21,7 +25,7 @@ This will create ```data``` and ```features``` folders containing audio and imag
 
 ## Dataset
 
-The medical dataset PoCap Corpus is unfortunately is not publicly available in order to ensure data security of patients and medical personal. Details can be found in [2]
+The medical dataset PoCap Corpus is unfortunately is not publicly available in order to ensure data security of patients and medical personal.
 
 ## Training
 
@@ -32,6 +36,4 @@ The medical dataset PoCap Corpus is unfortunately is not publicly available in o
 ## References
 ```
 [1] Demir, Kubilay Can, et al. "PoCaPNet: A Novel Approach for Surgical Phase Recognition Using Speech and X-Ray Images." arXiv preprint arXiv:2305.15993 (2023).
-
-[2] Demir, Kubilay Can, et al. "PoCaP Corpus: A Multimodal Dataset for Smart Operating Room Speech Assistant Using Interventional Radiology Workflow Analysis." Text, Speech, and Dialogue: 25th International Conference, TSD 2022, Brno, Czech Republic, September 6–9, 2022, Proceedings. Cham: Springer International Publishing, 2022.
 ```
